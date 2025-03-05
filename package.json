@@ -4,13 +4,13 @@
   "description": "Dev Tinder APP",
   "main": "index.js",
   "scripts": {
-    "start": "nodeman src/app.js",
+    "start": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Himakar",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
-    "nodeman": "^1.1.2"
+    "mongoose": "^8.10.1"
   }
 }
